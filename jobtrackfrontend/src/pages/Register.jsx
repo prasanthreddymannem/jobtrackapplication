@@ -48,7 +48,7 @@ export default function Register() {
       setLoading(true);
 
       await axios.post(
-        "http://localhost:8080/auth/register",
+        "https://jobtrackapplication.onrender.com/auth/register",
         formData
       );
 

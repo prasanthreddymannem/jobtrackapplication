@@ -24,7 +24,7 @@ export default function Applications() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:8080/applications",
+        "https://jobtrackapplication.onrender.com/applications",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -55,7 +55,7 @@ export default function Applications() {
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:8080/applications/${id}`,
+        `https://jobtrackapplication.onrender.com/applications/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

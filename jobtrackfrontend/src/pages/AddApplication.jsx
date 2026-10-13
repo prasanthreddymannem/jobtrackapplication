@@ -35,7 +35,7 @@ export default function AddApplication() {
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:8080/applications",
+        "https://jobtrackapplication.onrender.com/applications",
         formData,
         {
           headers: {

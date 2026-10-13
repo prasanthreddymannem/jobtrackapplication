@@ -32,7 +32,7 @@ export default function Login() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:8080/auth/login",
+        "https://jobtrackapplication.onrender.com/auth/login",
         formData
       );
 
