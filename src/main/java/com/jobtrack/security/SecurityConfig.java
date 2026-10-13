@@ -52,7 +52,7 @@ public class SecurityConfig {
                 new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-                List.of("http://localhost:5173")
+                List.of("https://jobtrackapplication-qxau43yf2-prasanthreddymannem.vercel.app/")
         );
 
         configuration.setAllowedMethods(
